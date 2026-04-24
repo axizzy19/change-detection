@@ -15,7 +15,7 @@
 
 ## Используемый датасет
 
-Датасет: https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd-change-detection
+Датасет: https://www.kaggle.com/datasets/mdrifaturrahman33/levir-cd-change-detection \
 Используется датасет **LEVIR-CD**, содержащий:
 
 * `A/` — изображения местности в момент времени T1
