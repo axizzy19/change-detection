@@ -102,13 +102,14 @@
 * Модель начинает улавливать базовые изменения
 * Требуется больше эпох для улучшения качества
 
-## Запуск проекта
+## Запуск проекта через wsl
 
 ```bash
-# Активировать окружение
-source ~/cd_env/bin/activate
-
-# Запустить Jupyter
+conda create -n cd_env python=3.11 -y
+conda activate cd_env
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install numpy matplotlib pillow tqdm jupyter ipykernel
+cd ~/change_detection_project
 jupyter notebook
 ```
 
